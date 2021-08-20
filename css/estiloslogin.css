@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fredoka One', cursive;
+}
+
+/* button{
+    color:rgb(252, 252, 252);
+    background-color: darkblue;
+}    
+
+#btnBlanco{
+
+    color:rgb(226, 223, 21);
+    background-color: deeppink;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#btnBlanco:hover{
+
+    background-color: violet;
+    color: tomato;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+
+        
+.bolita{
+    border: 2px solid purple;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 252, 252);
+    float: left;
+    border-radius: 50%;
+}  */
+
+#imagen, #formulario{
+
+    
+    float:left;
+    height: 100vh;
+    background-color: rgb(211, 62, 154);
+
+}
+#imagen{
+
+    background-image: url(./../img/fondo1.jpg);
+    background-size: 100% 100%;
+    background-position: -30%;
+    width: 70%;
+}
+#formulario{
+
+    background-color: rgb(69, 183, 218);
+    width: 30%;
+    padding-top: 50px;
+    
+    text-align: right;
+}
+#formulario > h1{
+    padding-right: 10%;
+    font-size: 2.5rem; /*1 em =32 px el rem es relativo a la escala de la pantalla*/
+    color: #fcf300
+}
+#formulario > h2{
+    padding-right: 10%;
+    font-size: 1.2rem;
+    color: #fcf300;
+}
+#formulario >form {
+   /* background-color: antiquewhite;*/
+    width: 80%;
+    margin: 30px auto;
+    text-align: left;
+ }
+
+ #formulario > form > fieldset{
+     padding:5px;
+     border:none;
+     margin-top: 5px;
+ }
+#formulario > form > fieldset >label {
+    display: block;/*covertir label a caja para darle propiedades*/
+ }
+ #formulario > form > fieldset >input{
+     display: block;
+     width: 100%;
+     height: 30px;
+     padding:5px;
+     border:none;
+     background-color: antiquewhite;
+     border-radius: 5px;
+ }
+ #formulario > form > fieldset >button{
+     width: 100px;
+     height: 30px;
+     border:none;
+     background-color: #fcf300;
+     color: white;
+     text-transform: uppercase;
+     border-radius: 5px;
+ }
+ #formulario > form > fieldset >a{
+     text-decoration: none;
+     color:black;
+     float:right;
+ }

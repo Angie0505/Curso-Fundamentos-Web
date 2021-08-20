@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="./css/estiloslogin.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+
+    <!--OTRA FORMA DE CREAR ESTILOS SE TIENEN QUE CREAR SELECTORES PARA SABER A QUIEN AFECTARA-->
+    <style>
+       
+
+        </style>
+
+
+</head>
+<!--ESTILO + PROPIEDAD : OPCIÓN EN ESTE CASO CAMBIA COLOR PANTALLA-->
+<body style="background-color: aliceblue;">
+
+    <div id="imagen"></div>
+    <div id="formulario">
+        <h1>Bienvenidos</h1>
+        <h2>Registrarse</h2>
+        <form action="">
+
+            <fieldset>
+                <label for="txtNombre">Nombre</label>
+                <input required type="text"id="txtNombre" placeholder="Nombre Completo">
+            </fieldset>
+
+            <fieldset>
+                <label for="txtDirección">Dirección</label>
+                <input required type="text"id="txtDirección" placeholder="Dirección">
+            </fieldset>
+
+            <fieldset>
+                <label for="txtTeléfono">Teléfono</label>
+                <input required type="tel" id="txtPhone" 
+                placeholder="Introduce tu Teléfono xxx-xxx-xxxx" 
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </fieldset>
+
+            <fieldset>
+                <label for="txtEmail">Email</label>
+                <input required type="email"id="txtEmail" placeholder="Introduce tu Email">
+                
+            </fieldset>
+
+            <fieldset>
+                <label for="txtPassword">Password</label>
+                <input required type="Password" id="txtPassword" placeholder="Password">
+            </fieldset>
+
+            <fieldset>
+                <label for="txtPassword">Valida password</label>
+                <input required type="Password" id="txtPassword2" placeholder="Password">
+            </fieldset>
+
+            <fieldset>
+                <button>Registrarse</button>
+                <a href="./login.html">login</a>
+            
+            </fieldset>
+        </form>
+    </div>
+ <!--ESTILO + PROPIEDAD : OPCIÓN EN ESTE CASO CAMBIA COLOR LETRA-->   
+    <h1 style="color: rgb(10, 10, 241);">Hola</h1>
+    <!--CREAR BOTON-->
+    <button> PRESIONAME </button>
+    <!--para darle un nombre al boton y que lo identifique-->
+    <button id="btnBlanco"> BOTON 2</button>
+
+    <div> Div 1 </div>
+    <div class="bolita"> Div 2 </div>
+    <div class="bolita"> Div 3 </div>
+</body>
+</html>
